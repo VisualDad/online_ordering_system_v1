@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    {# Make modifiable head elements #}
+    <head>
+
+    </head>
+    <body>
+
+        {# The Document Body #}
+        <div id="site-wrapper">
+            {% block content %}
+               block content my friend, worng
+            {% endblock content %}
+        </div>
+
+        {# The Footer #}
+        <div class="footer">
+            <div class="container">
+                <p>Copyright Thomas B.</p>
+            </div>
+        </div>
+
+    </body>
+    {% block footer_javascript %}
+
+    {% endblock footer_javascript %}
+</html>
